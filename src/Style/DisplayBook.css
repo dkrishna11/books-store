@@ -1,0 +1,7 @@
+.displyBook{
+    display: flex;
+    justify-content: space;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin: 20px;
+}

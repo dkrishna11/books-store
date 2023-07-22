@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+}
+.navBar{
+    background-color: #4b4b4b;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo h3{
+    color: white;
+    font-size: 25px;
+}
+.logo span{
+    font-weight: 100;
+    font-size: 12px;
+    color: #808080;
+}
+.navBar .searchBook input{
+    color: white;
+    background-color: #706e6e;
+    width: 450px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+::placeholder{
+    color: white;
+}
+input:focus{
+    outline: none;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background-color: #C3BEBE;
+    border: 1px solid #808080;
+    border-radius: 5px;
+}
+
+.icon{
+    color:white;
+}
+
+.icon .ic{
+    font-size: 25px;
+    padding: 15px;
+}
+
+.icon img{
+    width: 15%;
+    padding: 10px;
+}
