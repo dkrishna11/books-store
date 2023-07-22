@@ -3,7 +3,7 @@ import "../Style/DisplayBook.css"
 
 
 const DisplayBook=({book})=>{
-    const [showInfo,setShowInfo] = useState(null);
+
     return(
         <div>
             
