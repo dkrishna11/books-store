@@ -5,3 +5,28 @@
     gap: 25px;
     margin: 20px;
 }
+
+.booksInfo{
+    width: 210px;
+    background-color: rgb(73, 73, 187);
+    height: 234px;
+    padding-left: 20px;
+}
+
+.booksInfo p{
+    width: 180px;
+    height: 100px;
+  overflow: hidden;
+  white-space:rap;
+  text-overflow:clip;
+}
+
+.infoBooks{
+    display: flex;
+}
+
+.infoBooks img{
+    width: 160px;
+    height: 250px;
+    transform: rotate(-5deg);
+}

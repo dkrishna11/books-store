@@ -13,7 +13,6 @@ function App() {
     <div className="App">
       <NavBar setBook={setBook}/>
       <DetailsBook/>
-      <h3 className='moreBooks'>More Books</h3>
       <DisplayBook book={book}/>
     </div>
   );

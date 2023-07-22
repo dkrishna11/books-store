@@ -22,7 +22,7 @@ const NavBar=({setBook})=>{
           catch(error){console.log(error,"error Fetching time.....")}
         }
         DataFetch()
-      });
+      }, [setBook]);
 
     function submitSearch(){
         
